@@ -1,8 +1,8 @@
 {
   "name": "dropdown",
   "version": "1.0.0",
-  "description": "A customizable drop-down menu",
-  "main": "index.js",
+  "description": "A customizable drop-down menu module for web applications",
+  "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production --node-env=production",
@@ -11,9 +11,22 @@
     "watch": "webpack --watch",
     "serve": "webpack serve"
   },
-  "keywords": [],
+  "keywords": [
+    "dropdown",
+    "menu",
+    "web",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Elliot-Akande/drop-down-menu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Elliot-Akande/drop-down-menu/issues" 
+  },
+  "homepage": "https://github.com/Elliot-Akande/drop-down-menu",
   "author": "Elliot Akande",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@webpack-cli/generators": "^3.0.7",
     "css-loader": "^6.8.1",
