@@ -1,6 +1,6 @@
 import './style.css';
 
-const DropDown = function dropDownList(
+const Dropdown = function dropDownList(
   title = 'Drop-down',
   items = [
     {
@@ -53,4 +53,4 @@ const DropDown = function dropDownList(
   return render();
 };
 
-export default DropDown;
+export default Dropdown;

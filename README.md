@@ -1,6 +1,6 @@
-# @akande/dropdown
+# Dropdown
 
-@akande/dropdown is a lightweight and customizable JavaScript module for creating drop-down lists in web applications. It allows you to easily integrate and style dropdowns with your own data and callbacks.
+Dropdown is a lightweight and customizable JavaScript module for creating drop-down lists in web applications. It allows you to easily integrate and style drop-down lists with your own data and callbacks.
 
 ## Features
 
@@ -11,7 +11,7 @@
 
 ## Installation
 
-You can install @akande/dropdown via npm:
+You can install Dropdown via npm:
 
 ```bash
 npm install @akande/dropdown
@@ -19,7 +19,7 @@ npm install @akande/dropdown
 
 ## Usage
 
-To use @akande/dropdown in your HTML file, follow these steps:
+To use Dropdown in your HTML file, follow these steps:
 
 1. Include the JavaScript file in your HTML:
 
@@ -36,7 +36,7 @@ To use @akande/dropdown in your HTML file, follow these steps:
 3. In your JavaScript file, import the module, create an instance, and render it in the container:
 
    ```javascript
-   import DropDown from '@akande/dropdown';
+   import Dropdown from '@akande/dropdown';
 
    // Create an array of items for the dropdown
    const dropdownItems = [
@@ -59,7 +59,7 @@ To use @akande/dropdown in your HTML file, follow these steps:
    const dropdownContainer = document.getElementById('dropdown-container');
 
    // Create an instance of the dropdown and render it in the container
-   const dropdown = new DropDown('Dropdown Example', dropdownItems);
+   const dropdown = new Dropdown('Dropdown Example', dropdownItems);
    dropdownContainer.appendChild(dropdown);
    ```
 
@@ -67,7 +67,7 @@ To use @akande/dropdown in your HTML file, follow these steps:
 
 ## API Reference
 
-### `new DropDown(title, items)`
+### `new Dropdown(title, items)`
 
 Creates a new instance of the dropdown with the specified title and list items.
 
