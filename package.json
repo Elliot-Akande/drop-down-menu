@@ -1,7 +1,7 @@
 {
-  "name": "my-webpack-project",
+  "name": "dropdown",
   "version": "1.0.0",
-  "description": "My webpack project",
+  "description": "A customizable drop-down menu",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "serve": "webpack serve"
   },
   "keywords": [],
-  "author": "",
+  "author": "Elliot Akande",
   "license": "ISC",
   "devDependencies": {
     "@webpack-cli/generators": "^3.0.7",
