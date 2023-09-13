@@ -5,21 +5,15 @@ const DropDown = function dropDownList(
   items = [
     {
       title: 'Item 1',
-      callback: () => {
-        console.log('test');
-      },
+      callback: () => {},
     },
     {
       title: 'Item 2',
-      callback: () => {
-        console.log('test');
-      },
+      callback: () => {},
     },
     {
       title: 'Item 3',
-      callback: () => {
-        console.log('test');
-      },
+      callback: () => {},
     },
   ],
 ) {
@@ -27,7 +21,10 @@ const DropDown = function dropDownList(
     const item = document.createElement('div');
     item.classList.add('dropdown__item');
     item.textContent = data.title;
-    item.addEventListener('click', data.callback);
+    if (Object.prototype.hasOwnProperty.call(data, 'callback')) {
+      item.addEventListener('click', data.callback);
+    }
+
     return item;
   };
 
