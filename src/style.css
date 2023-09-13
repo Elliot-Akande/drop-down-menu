@@ -1,10 +1,11 @@
 .dropdown {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
 }
 
 .dropdown__button {
   padding: 8px;
-  width: 200px;
   background: #e5e7eb;
   border: 1px solid #ccc;
   font-family: Arial, sans-serif;
