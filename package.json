@@ -1,6 +1,6 @@
 {
   "name": "@akande/dropdown",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A customizable drop-down menu module for web applications",
   "main": "dist/main.js",
   "scripts": {
