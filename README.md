@@ -21,19 +21,13 @@ npm install @akande/dropdown
 
 To use Dropdown in your HTML file, follow these steps:
 
-1. Include the JavaScript file in your HTML:
-
-   ```html
-   <script src="path/to/main.js"></script>
-   ```
-
-2. Create an HTML container where you want the dropdown to appear:
+1. Create an HTML container where you want the dropdown to appear:
 
    ```html
    <div id="dropdown-container"></div>
    ```
 
-3. In your JavaScript file, import the module, create an instance, and render it in the container:
+2. In your JavaScript file, import the module, create an instance, and render it in the container:
 
    ```javascript
    import Dropdown from '@akande/dropdown';
@@ -59,15 +53,15 @@ To use Dropdown in your HTML file, follow these steps:
    const dropdownContainer = document.getElementById('dropdown-container');
 
    // Create an instance of the dropdown and render it in the container
-   const dropdown = new Dropdown('Dropdown Example', dropdownItems);
+   const dropdown = Dropdown('Dropdown Example', dropdownItems);
    dropdownContainer.appendChild(dropdown);
    ```
 
-4. Customize the title, list items, and callback functions to suit your needs.
+3. Customize the title, list items, and callback functions to suit your needs.
 
 ## API Reference
 
-### `new Dropdown(title, items)`
+### `Dropdown(title, items)`
 
 Creates a new instance of the dropdown with the specified title and list items.
 
