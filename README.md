@@ -53,7 +53,11 @@ To use Dropdown in your HTML file, follow these steps:
    const dropdownContainer = document.getElementById('dropdown-container');
 
    // Create an instance of the dropdown and render it in the container
-   const dropdown = Dropdown('Dropdown Example', dropdownItems);
+   const dropdown = Dropdown(
+     'Dropdown Example',
+     dropdownItems,
+     'my-custom-dropdown',
+   );
    dropdownContainer.appendChild(dropdown);
    ```
 
@@ -61,12 +65,13 @@ To use Dropdown in your HTML file, follow these steps:
 
 ## API Reference
 
-### `Dropdown(title, items)`
+### `Dropdown(title, items, customClass)`
 
-Creates a new instance of the dropdown with the specified title and list items.
+Creates a new instance of the dropdown with the specified title, list items, and custom CSS class.
 
 - `title` (String): The title to display on the dropdown button.
 - `items` (Array of Objects): An array of items to display in the dropdown list. Each item should have a `title` (String) and an optional `callback` (Function) that gets executed when the item is clicked.
+- `customClass` (String): A custom CSS class name for applying user-defined styles to the dropdown container.
 
 ## License
 
