@@ -1,29 +1,29 @@
-.dropdown {
+.dd {
   display: flex;
   flex-direction: column;
   width: 200px;
 }
 
-.dropdown__button {
+.dd__btn {
   padding: 8px;
   background: #e5e7eb;
   border: 1px solid #d1d5db;
   font-family: Arial, sans-serif;
 }
 
-.dropdown:hover .dropdown__button {
+.dd:hover .dd__btn {
   background: #d1d5db;
 }
 
-.dropdown__list {
+.dd__list {
   background: #f3f4f6;
 }
 
-.dropdown:not(:hover) .dropdown__list {
+.dd:not(:hover) .dd__list {
   display: none;
 }
 
-.dropdown__item {
+.dd__item {
   padding: 8px;
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -31,10 +31,10 @@
   transition: background-color 0.2s ease;
 }
 
-.dropdown__item:hover {
+.dd__item:hover {
   background: #e5e7eb;
 }
 
-.dropdown__item:active {
+.dd__item:active {
   background: #d1d5db;
 }
